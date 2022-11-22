@@ -1,0 +1,36 @@
+.padre{
+    height: 700px;
+    width: 800px;
+    background-color: beige;
+
+    display: grid;
+    grid-template-columns: 200px 100px 200px 150px 150px;
+   
+    grid-template-columns: 2fr 1fr 3fr;
+    grid-template-rows: 2fr 1fr 3fr 4fr 1fr; 
+    grid-template-areas: 
+    'cajita1 cajita1 cajita1 cajita2'
+    'cajita3 cajita3 cajita4 cajita5'
+    'cajita3 cajita3 cajita4 cajita5'
+    ;
+    
+}
+
+.hijo{
+    border: 1px solid red;    
+}
+.cajita1{
+    grid-area: cajita1; 
+}
+.cajita2{
+    grid-area: cajita1; 
+}
+.cajita3{
+    grid-area: cajita1; 
+}
+.cajita4{
+    grid-area: cajita1; 
+}
+.cajita5{
+    grid-area: cajita1; 
+}
